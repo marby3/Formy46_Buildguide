@@ -94,8 +94,8 @@
 
 ![list_01](img/list_01.JPG)  
 ※不足品があった場合は下記の連絡先へご連絡をお願いします。  
-Twitter:[@marbySAN](https://twitter.com/marbySAN)
-Discord:[長屋Craftworks](https://discord.gg/r4ck4aTZvC)
+Twitter:[@marbySAN](https://twitter.com/marbySAN)  
+Discord:[長屋Craftworks](https://discord.gg/r4ck4aTZvC)  
 
 
 ### 追加購入品
