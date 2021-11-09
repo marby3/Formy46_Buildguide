@@ -51,7 +51,7 @@
 ### ファームウェアについて注意
 ファームウェアについて、QMK Firmwareに本キーボードのファームウェアを今後追加予定です。  
 しかし、様々な手続きが必要なため、しばらくはQMK Toolboxを使用してファームウェアを書き込みます。  
-リンクはこちらから→[デフォルト](hex/formy46_default.hex)/[VIA](formy46_via.hex)  
+リンクはこちらから→[デフォルト](hex/formy46_default.hex)/[VIA](hex/formy46_via.hex)/[VIA_json](hex/formy46.json)  
 また、QMK FirmwareのFlashができる方は[こちら（フォークしたQMK Firmwareです）](https://github.com/marby3/qmk_firmware/tree/marby_local)からリポジトリに移動してもらいファームウェアを書き込んでください。  
 今後の対応予定については以下の通りです。  
 - QMK Firmware  
@@ -198,7 +198,8 @@ OLEDモジュールに付属しているピンのうち、両方ともトゲト�
 ProMicroにファームウェアを書き込みます。  
 Formy46のHexファイルをダウンロードします。  
 - [Default](hex/formy46_default.hex)
-- [VIA](formy46_via.hex)
+- [VIA](hex/formy46_via.hex)
+- [VIA用JSON](hex/formy46.json)（こちらは[VIA](https://caniusevia.com)を使用する際に必要になります）
 次に、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)をDLし、実行します。  
 Formy46のHexファイルをQMK Toolboxで読み込み、Flashします。  
 ![ProMicro_03](img/flash01.png)  
