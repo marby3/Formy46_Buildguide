@@ -1,5 +1,6 @@
 # Alico48 ビルドガイド
 ![top](img/top.JPG)  
+------------
 ### 目次
 - [Alico48 ビルドガイド](#alico48-ビルドガイド)
     - [目次](#目次)
@@ -31,7 +32,7 @@
 ### はじめに
 このページはFormy46の組み立て手順を解説するページです。  
 事前に全体を読んだ上で作業を開始してください。  
-また、[工具セット](https://shop.yushakobo.jp/collections/accessory/products/a9900to)と同程度の工具を所有していることを前提として解説を進めます。 
+また、[工具セット](https://shop.yushakobo.jp/collections/accessory/products/a9900to)と同程度の工具を所有していることを前提として解説を進めます。  
 
 
 ### 全体の流れ
@@ -49,10 +50,10 @@
 ファームウェアについて、QMK Firmwareに本キーボードのファームウェアを今後追加予定です。  
 しかし、様々な手続きが必要なため、しばらくはQMK Toolboxを使用してファームウェアを書き込みます。  
 リンクはこちらから→[デフォルト](hex/formy46_default.hex)/[VIA](formy46_via.hex)  
-また、ファームウェアのカスタマイズができる方は[こちら](https://github.com/marby3/qmk_firmware/tree/marby_local)を利用してファームウェアを書き込んでください。  
+また、QMK FirmwareのFlashができる方は[こちら（フォークしたQMK Firmwareです）](https://github.com/marby3/qmk_firmware/tree/marby_local)からリポジトリに移動してもらいファームウェアを書き込んでください。  
 今後の対応予定については以下の通りです。  
 - QMK Firmware  
-    公式のリポジトリへ追加予定  
+    公式へ追加予定  
     ※PR済みなので、しばらくしたら追加されます  
 - VIA  
     QMK Firmwareがマージされた後に追加予定  
@@ -103,18 +104,19 @@ Discord:[長屋Craftworks](https://discord.gg/r4ck4aTZvC)
 レイアウトにより購入する必要のある数が変動します。  
 | NO | 部品名 | 数量 | 備考 |
 | --- | --- | --- | --- |
-| 20 | ProMicro | 2 | ProMicro互換品を使用可能 |
-| 21 | コンスルー 12ピン(2.5mm) | 2 |  |
-| 22 | OLEDモジュール | 2 | OLEDが不要な場合実装不要 |
-| 23 | SK6812MINI-E | 46 | 光らせない場合実装不要 |
-| 24 | Cherry MXスイッチ | 適量 | 38～40個 |
-| 24 | Kailh Chocスイッチ | 適量 | 0～8個 |
-| 25 | CherryMXキーキャップ（1U） | 適量 | 38個 |
-| 25 | CherryMXキーキャップ（2U） | 適量 | 0～2個、ISOエンターも使用可能 |
-| 25 | Kailh Chocキーキャップ（1U） | 適量 | 0～8個 |
-| 25 | スタビライザー（2U） | 適量 | 0～2個 |
-| 22 | TRRSケーブル | 1 | TRSケーブルも使用可能 |
-| 27 | USBケーブル | 1 | ProMicroに対応したケーブル |
+| 1 | ProMicro | x2 | ProMicro互換品を使用可能 |
+| 2 | コンスルー 12ピン(2.5mm) | x2 |  |
+| 3 | OLEDモジュール | x2 | OLEDが不要な場合実装不要 |
+| 4 | SK6812MINI-E | x46 | 光らせない場合実装不要 |
+| 5 | Cherry MXスイッチ | x適量 | 38～40個 |
+| 6 | Kailh Chocスイッチ | x適量 | 0～8個 |
+| 7 | CherryMXキーキャップ（1U） | x適量 | 38個 |
+| 8 | CherryMXキーキャップ（2U） | x適量 | 0～2個、ISOエンターも使用可能 |
+| 9 | Kailh Chocキーキャップ（1U） | x適量 | 0～8個 |
+| 10 | ロータリーエンコーダー | x適量 | 0～2個 |
+| 11 | スタビライザー（2U） | x適量 | 0～2個 |
+| 12 | TRRSケーブル | x1 | TRSケーブルも使用可能 |
+| 13 | USBケーブル | x1 | ProMicroに対応したケーブル |
 
 ![list_02](img/list_02.JPG)  
 
