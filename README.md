@@ -151,10 +151,12 @@ ProMicroをコンスルー 12ピン(2.5mm)にはんだ付けします。
 
 コンスルー 12ピン(2.5mm)を挿入し、はんだ付けします。  
 コンスルーには向きがあるので、画像を参考にコンスルーを取り付けてください。  
-![ProMicro_01](img/xxx.png)  
+![ProMicro_01](img/promicro01.PNG)  
+![ProMicro_02](img/promicro02.JPG)  
+![ProMicro_03](img/promicro03.JPG)  
 はんだ付けを上手にするには、コンスルー 12ピン(2.5mm)をPCBに差し込み上面から1箇所ずつ調整しながらはんだ付けすると綺麗にできます。  
 今後はこのはんだ付けしたものをProMicroと呼びます。  
-![ProMicro_02](img/xxx.png)  
+![ProMicro_04](img/promicro04.JPG)  
 (※Elite-C等はコンスルーを差し込むだけで導通するのではんだ付け不要です。)  
 (※BLE Micro Proを使用する際、13ピンが必要になります。)  
 
