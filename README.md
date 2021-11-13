@@ -175,6 +175,7 @@ layout2では、Kailh Chocスイッチ/ロータリーエンコーダー/親指�
 ![addon_04](img/addon04.png)  
 
 ### 03.04. SK6812MINI-Eをはんだ付けする(オプション)
+注意：LEDについて、v1.0基板では不具合があります。[このページをご確認ください。](https://github.com/marby3/Formy46_Buildguide/blob/main/episode.md#%E8%A8%AD%E8%A8%88%E3%83%9F%E3%82%B9)  
 SK6812MINI-EをPCB(left)とPCB(right)にはんだ付けします。  
 
 SK6812MINI-EをPCB裏面の四角い穴にはめ込み、ピンを4つはんだ付けしていきます。  
@@ -250,9 +251,9 @@ OLED保護プレートには表と裏があり、表面がスモーク上にな�
 ### 05.03. トッププレートをスペーサープレートと共に取り付ける
 トッププレート、スペーサープレート、PCB、ボトムプレートを整列させ、バインド小ねじ（金メッキ） 8mmで固定します。  
 固定する際、スペーサープレートの位置がズレやすいので注意が必要です。  
-![assembly_04](img/assembly_04.JPG)  
-スペーサープレートの位置は以下に置いてください。  
-![assembly_05](img/assembly_05.JPG)  
+![assembly_04](img/assembly_04.PNG)  
+![assembly_05](img/assembly_05.PNG)  
+![assembly_05](img/assembly_06.PNG)  
 
 ### 05.04. 底面にゴム足を貼る
 キーボード本体の裏面に丸ゴム足と長丸ゴム足を貼ります。  
@@ -267,7 +268,6 @@ OLED保護プレートには表と裏があり、表面がスモーク上にな�
 ## 07. 完成！
 お疲れ様でした！  
 ![finish](img/xxx.png)  
-
 お暇な方はこちらも読んでみてください！  
 [小話](.//episode.md)
 
