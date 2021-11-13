@@ -207,10 +207,10 @@ Formy46のHexファイルをダウンロードします。
 - [VIA](https://drive.google.com/file/d/1--5r4pJSs5um-ACgz48lfnsf1TAmAphB/view?usp=sharing)
 - [VIA用JSON](https://drive.google.com/file/d/1zEDWaa-UmZv0PH-ryRaYrf7IlyeMG6NF/view?usp=sharing)（こちらは[VIA](https://caniusevia.com)にインポートすることで使用できます）
 次に、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)をDLし、実行します。  
-Formy46のHexファイルをQMK Toolboxで読み込み、Flashします。  
 ![ProMicro_03](img/flash01.png)  
-正常に書き込みが進んだ場合、最後にProMicroのリセットピンとGNDピンを短絡させ、リセットする必要があります。  
-PCBに差し込みタクタイルスイッチを1～2秒長押しした後離すと、書き込みが完了します。  
+Formy46のHexファイルをQMK Toolboxで読み込み、Flashします。  
+正常に書き込みを進めるには、ProMicroのリセットピンとGNDピンを短絡させ、リセットする必要があります。  
+PCBに差し込みタクタイルスイッチを1～2秒長押しした後離すと、書き込みが進みます。  
 ![ProMicro_04](img/flash02.png)  
 ファームウェアの書き込みが正常に終わった場合、ProMicroが「Formy46」として認識されます。  
 ![ProMicro_05](img/flash03.png)  
