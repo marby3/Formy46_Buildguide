@@ -268,6 +268,9 @@ OLED保護プレートには表と裏があり、表面がスモーク上にな�
 お疲れ様でした！  
 ![finish](img/xxx.png)  
 
+お暇な方はこちらも読んでみてください！
+[小話](./episode.md)
+
 ## クレジット
 ビルドガイド制作：[まーびい](https://twitter.com/marbySAN)
 キーボード撮影：[masro](https://twitter.com/KS_JAPAN2021)
